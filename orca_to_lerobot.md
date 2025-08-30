@@ -3,7 +3,31 @@
 
 ---
 1. 文件结构
- 
+ ```
+假设 LeRobot 项目路径为：
+
+```
+lerobot/
+├── src/lerobot/
+│   ├── robots/
+│   │   ├── __init__.py
+│   │   ├── utils.py
+│   │   ├── orca/
+│   │   │   ├── __init__.py
+│   │   │   └── orca.py
+│   ├── teleoperate.py
+```
+
+Orca SDK 位于独立目录：
+
+```
+orca/
+└── orca_sdk/
+    ├── interface/
+    │   └── interface.py
+    └── ...
+```
+```
  
 2. 在 lerobot/robots/orca/__init__.py 注册 OrcaRobot
 ```python
