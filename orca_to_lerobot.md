@@ -51,7 +51,7 @@ from dataclasses import dataclass, field
 from lerobot.robots.config import RobotConfig
 from lerobot.robots.robot import Robot
 from lerobot.robots.utils import ensure_safe_goal_position
-from orca_sdk.interface.orca_interface_v2 import C_OrcaInterface_V2
+from orca_sdk.interface.orca_interface import C_OrcaInterface
 
 @dataclass
 class OrcaConfig(RobotConfig):
@@ -69,7 +69,7 @@ class OrcaRobot(Robot):
         super().__init__(config)
         self.config = config
         # 初始化 Orca SDK
-        self.interface = C_OrcaInterface_V2(can_name=config.port)
+        self.interface = C_OrcaInterface(can_name=config.port)
         # 初始化其它状态/动作等
         ...
 ```
@@ -149,7 +149,7 @@ python -m lerobot.teleoperate \
   ```bash
   --display_data=false
   ```
-* Orca SDK 的 C_OrcaInterface_V2 需要正确安装并可导入。
+* Orca SDK 的 C_OrcaInterface 需要正确安装并可导入。
 * 所有动作、关节控制和 gripper 控制通过 send_action() 接口传入字典。
 * 若出现校准提示，可确认 id 与 calibration_dir 是否匹配。
 
