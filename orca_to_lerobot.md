@@ -3,7 +3,7 @@
 
 ---
 1. 文件结构
- ```
+
 假设 LeRobot 项目路径为：
 
 ```
@@ -27,7 +27,7 @@ orca/
     │   └── interface.py
     └── ...
 ```
- 
+```
  
 2. 在 lerobot/robots/orca/__init__.py 注册 OrcaRobot
 ```python
