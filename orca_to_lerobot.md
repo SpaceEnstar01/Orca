@@ -27,7 +27,7 @@ orca/
     │   └── interface.py
     └── ...
 ```
-```
+
  
 2. 在 lerobot/robots/orca/__init__.py 注册 OrcaRobot
 ```python
@@ -119,22 +119,22 @@ python -m lerobot.teleoperate \
 ---
 
 6. 完整配置流程总结
-7. 注册机器人类型
+6.1. 注册机器人类型
 
    * 在 robots/orca/__init__.py 注册 OrcaRobot 到 RobotConfig。
-8. 实现机器人类
+6.2. 实现机器人类
 
    * OrcaRobot 继承自 Robot。
    * 实现抽象方法和动作/观测接口。
    * 使用 Orca SDK 初始化机械臂。
-9. 支持配置创建
+6.3. 支持配置创建
 
    * utils.py 中 make_robot_from_config 支持 orca。
-10. 校准文件
+6.4. 校准文件
 
     * 确保 RobotConfig.id 与已有校准文件匹配。
     * 可选设置 calibration_dir。
-11. 运行 teleoperate
+6.5. 运行 teleoperate
 
     * 设置 --robot.type=orca。
     * 设置 Orca CAN 端口。
