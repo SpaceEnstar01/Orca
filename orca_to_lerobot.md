@@ -4,33 +4,32 @@
 ---
 1. 文件结构
 ```markdown
- LeRobot 项目路径为：  
+假设 LeRobot 项目路径为：
 
 ```
-
 lerobot/
 ├── src/lerobot/
 │   ├── robots/
-│   │   ├── **init**.py
+│   │   ├── __init__.py
 │   │   ├── utils.py
 │   │   ├── orca/
-│   │   │   ├── **init**.py
+│   │   │   ├── __init__.py
 │   │   │   └── orca.py
 │   ├── teleoperate.py
-
 ```
 
-Orca SDK 位于独立目录：  
+Orca SDK 位于独立目录：
 
 ```
-
 orca/
-└── orca\_sdk/
-├── interface/
-│   └── interface.py
-└── ...
-
+└── orca_sdk/
+    ├── interface/
+    │   └── interface.py
+    └── ...
 ```
+
+
+
 ```
 
 ---
