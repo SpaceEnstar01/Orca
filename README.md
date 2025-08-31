@@ -36,7 +36,7 @@ ORCA's data collection platform is both comprehensive and user-friendly. It auto
 ### Orca Data Platform  
 
 #### Data Collection Excellence  
-- **Exclusive Multimodal Data Sync for Aloha Robotic Arms**: Synchronously collect force, visual, and joint data with precise timestamp alignment.  
+- **100% focusing on Aloha Robotic Arms**: Synchronously collect force, visual, and joint data with precise timestamp alignment.  
 - **Built-in Data Cleaning & Annotation Tools**: Adapt to Hugging Face dataset formats out of the box.  
 
 #### Seamless Ecosystem Integration  
