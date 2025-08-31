@@ -33,6 +33,21 @@ ORCA's data collection platform is both comprehensive and user-friendly. It auto
 - **Structured storage**: Data is stored in a format ready for immediate analysis or training AI models.  
 - **Example use case**: In industrial quality control, the collected data can detect patterns that indicate product defects, enabling preventive maintenance and improving overall product quality.
 
+### Orca Data Platform  
+
+#### Data Collection Excellence  
+- **Exclusive Multimodal Data Sync for Aloha Robotic Arms**: Synchronously collect force, visual, and joint data with precise timestamp alignment.  
+- **Built-in Data Cleaning & Annotation Tools**: Adapt to Hugging Face dataset formats out of the box.  
+
+#### Seamless Ecosystem Integration  
+- **Deep Rerun Real-time Visualization Integration**: Customize views for robotic arm motion and data correlation.  
+- **One-click Sync to GitHub & Hugging Face**: Support version control for code repositories and datasets.  
+
+#### Specialized Scenario Capabilities  
+- **Focus on Core Aloha Tasks (Grasping/Assembly)**: Provide standardized data collection templates.  
+- **Built-in Algorithm Deployment Interface**: Enable trained models to directly control robotic arms for task execution.
+
+
 ---
 
 ## 3. Completed Software Algorithm Framework
