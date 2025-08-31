@@ -58,3 +58,13 @@ Designed for quick deployment, ORCA can be set up and running in a short time.
 - **Modular mechanical structure**: Easy to assemble components for faster deployment.  
 - **Low maintenance**: High-quality materials and design minimize downtime.  
 - **Impact**: In industrial settings, this means higher productivity with reduced interruptions; for individuals or small businesses, it ensures immediate usability without complex maintenance procedures.
+- 
+
+# ORCA Arm Current Status
+
+1. **Hardware development**: Motor technology independently developed and validated ✅  
+2. **6-DOF modular mechanical arm design**: Completed ✅  
+3. **ORCA Arm functional debugging**: In progress ✅  
+4. **ORCA Arm Python SDK and ROS interface**: Basic SDK already completed ✅  
+5. **Software & algorithm breakthrough**: Fully integrated core embodied intelligence frameworks (LeRobot and ALOHA) ✅
+
