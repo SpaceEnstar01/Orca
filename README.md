@@ -27,7 +27,7 @@ The standardized interface on the ORCA mechanical arm serves as a game-changer. 
 
 ---
 
-## 2. Comprehensive Data Collection Platform
+## 2. Purest Aloha Data Collection Platform
 ORCA's data collection platform is both comprehensive and user-friendly. It automatically logs a vast amount of data during the arm's operation, including real-time joint angles, motor torque values, and sensor-based environmental data.  
 
 - **Structured storage**: Data is stored in a format ready for immediate analysis or training AI models.  
